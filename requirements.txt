@@ -1,0 +1,11 @@
+torch
+requests==2.26.0
+wave==0.0.2
+pygame
+PyQt5
+PyQt5-stubs
+google-cloud-translate
+google-cloud-texttospeech
+google-cloud-speech
+speechrecognition
+ipython
