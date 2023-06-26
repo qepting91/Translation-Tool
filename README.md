@@ -24,6 +24,7 @@ Before running the Translation App, ensure that you have the following dependenc
 1. Clone the repository to your local machine:
 
    git clone https://github.com/qepting91/translation-app.git
+
 Install the required Python packages using pip:
 
 pip install -r requirements.txt
@@ -45,13 +46,19 @@ Enable both APIs for your project.
 Generate a service account key:
 
 In the Google Cloud Console, navigate to the "APIs & Services" > "Credentials" section.
+
 Click on the "Create credentials" dropdown and select "Service account key".
+
 Fill in the required information for the service account.
+
 Under "Key type", select "JSON" and click "Create".
+
 Save the downloaded JSON key file in a secure location.
+
 Set the GOOGLE_APPLICATION_CREDENTIALS environment variable:
 
 Set the GOOGLE_APPLICATION_CREDENTIALS environment variable to the path of the downloaded JSON key file.
+
 This can be done using the command line or by setting the environment variable in your development environment.
 
 Make sure to replace /path/to/keyfile.json with the actual path to the downloaded JSON key file.
@@ -59,11 +66,13 @@ Make sure to replace /path/to/keyfile.json with the actual path to the downloade
 Once you have completed these steps, your Google Cloud credentials will be set up and the Translation App will be able to authenticate and access the Text-to-Speech and Speech-to-Text APIs.
 
 ## Set the GOOGLE_APPLICATION_CREDENTIALS environment variable to the path of the JSON key file.
-Usage
 
-## To start the Translation App, navigate to the project directory and run the following command:
+## Usage
 
-python gui_module.py
+To start the Translation App, navigate to the project directory and run the following command:
+
+python main.py
+
 The Translation App GUI will open, allowing you to interact with the translation and speech functionality.
 
 Contributing
